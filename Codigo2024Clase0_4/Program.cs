@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+//CLASE 09/09/24
 
 //FUNCIONES: devuelven un valor.
 int Sumar(int a, int b)
@@ -68,5 +69,32 @@ double altura = CalcularDistancia(x2, y2, x3, y3);
 Console.WriteLine("La altura es: ");
 Console.WriteLine(altura);
 
+//EJERCICIO:
+//1. Calcular el área de un rectángulo
+//2. Calcular el perímetro de un rectángulo
+double CalcularAreaRectangulo(double bas, double alt)
+{
+    double area = bas * alt;
+
+    return area;
+}
+
+double CalcularPerimetroRectangulo(double bas, double alt)
+{
+    double perimetro = (bas + alt)*2;
+
+    return perimetro;
+}
+
+double bas = 4;
+double alt = 6;
+
+double area = CalcularAreaRectangulo(bas, alt);
+Console.WriteLine("El área es: ");
+Console.WriteLine(area);
+
+double perimetro = CalcularPerimetroRectangulo(bas, alt);
+Console.WriteLine("El perímetro es: ");
+Console.WriteLine(perimetro);
 
 Console.Read();
