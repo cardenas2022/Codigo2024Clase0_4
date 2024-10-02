@@ -96,5 +96,5 @@ Console.WriteLine(area);
 double perimetro = CalcularPerimetroRectangulo(bas, alt);
 Console.WriteLine("El perímetro es: ");
 Console.WriteLine(perimetro);
-//
+
 Console.Read();
