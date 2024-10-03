@@ -110,6 +110,7 @@ void crearTablaMultiplicarReves(int numero)
     {
         Console.WriteLine(numero + " x " + i + " = " + numero * i);
         i--;
+		//i = i - 1;
 		
     }
 }
